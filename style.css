@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container,
+.taskList,
+.tables-head {
+  display: grid;
+  grid-template-columns: 130px 130px 80px;
+  column-gap: 8px;
+  row-gap: 5px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.tables {
+  background: rgb(45,50,100);
+  padding: 5px 15px;
+  font-size: .7rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+.btn-field {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5px;
+}
+#dataTask {
+  padding: 5px 10px;
+  font-size: .8rem;
+}
+h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  letter-spacing: 1px;
+}
+.add-btn {
+  background: yellowgreen;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+}
+.delete-button {
+  background: darkred;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 2px;
+}
+.update-button,
+.edit-button {
+  background: rgb(45,50,100);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 2px;
+}
+.completed {
+  text-decoration: line-through;
+}
+footer {
+  position: absolute;
+  bottom: 5%;
+}
